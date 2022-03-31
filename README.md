@@ -12,8 +12,9 @@
 
 
 ## Sobre o Projeto
-.
-
+Fazer com que a porcentagem de imunizados aumente e que os números de perda de vacina diminuam consideravelmente. 
+ 
+ 
 ## Tecnologias
 - HTML e Javascript - Estrutura do site
 - C++ (Arduino) - Instalação de sensores de temperatura
