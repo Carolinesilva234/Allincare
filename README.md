@@ -1,6 +1,6 @@
 <p align="center">
     <img 
-      src="https://thumbs.dreamstime.com/b/molde-do-logotipo-hospital-117487677.jpg"
+      src="https://thumbs.dreamstime.com/b/molde-do-logotipo-hospital-117487677.jpg">
       
       width="250" 
       height="28.06"
