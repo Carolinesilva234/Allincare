@@ -1,7 +1,7 @@
 <p align="center">
     <img 
-      src="https://i.imgur.com/ikHKK54.png"
-      alt="logo MallHub - sombra de uma sacola de shopping com o nome do projeto Mallhub" 
+      src="https://i.imgur.com/eK4n6NL.png"
+      alt="logo Allincare" 
       width="250" 
       height="28.06"
     />
