@@ -1,7 +1,7 @@
 <p align="center">
     <img 
-      src="https://thumbs.dreamstime.com/b/molde-do-logotipo-hospital-117487677.jpg">
-      
+      src="https://i.imgur.com/ikHKK54.png"
+      alt="logo MallHub - sombra de uma sacola de shopping com o nome do projeto Mallhub" 
       width="250" 
       height="28.06"
     />
