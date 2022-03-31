@@ -3,7 +3,7 @@
       src="https://i.imgur.com/kCETfgc.png"
       alt="logo Allincare" 
       width="250" 
-      height="28.06"
+      height="806"
     />
 </p>
 
