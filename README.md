@@ -2,8 +2,8 @@
     <img 
       src="https://i.imgur.com/kCETfgc.png"
       alt="logo Allincare" 
-      width="350" 
-      height="406"
+      width="250" 
+      height="206"
     />
 </p>
 
