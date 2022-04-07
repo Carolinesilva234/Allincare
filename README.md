@@ -8,7 +8,7 @@
 </p>
 
 <h3 align="center">Allincare</h3>
-<p align="center">Um sistema para gerenciar a temperatura no transporte de vacinas. </p>
+<p align="center">Um sistema para gerenciar a temperatura de vacinas na produção, transporte e armazenamento. </p>
 
 
 ## Objetivo do Projeto
