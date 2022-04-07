@@ -16,7 +16,7 @@ Fazer com que a porcentagem de imunizados aumente e que os números de perda de 
  
  
 ## Tecnologias
-- HTML e Javascript - Estrutura do site
+- HTML, CSS e Javascript - Estrutura do site
 - C++ (Arduino) - Instalação de sensores de temperatura
 - NodeJS - Persistencia dos dados na base
 - MySQL - Sistema de gerenciamento de banco de dados
