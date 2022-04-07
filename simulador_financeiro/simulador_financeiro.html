@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Lote de vacinas: <input id="qtd_lotes">
+    Vacinas perdidas: <input id="vac_perdidas"> 
+    Preço da vacina por unidade : <input id="valor_vacina"> 
+
+    <button onclick="calcular()"> 
+        Calcular 
+    </button> 
+
+    <div id="mostrar_valor"> </div> 
+</body>
+</html>
+
+<script> 
+function calcular(){
+    var lote = 1300000
+    var quantidade = Number(qtd_lotes.value)
+    var vacinas_perdidas = Number(vac_perdidas.value)
+    var preço = Number(valor_vacina.value)
+    var calc1 = lote * quantidade 
+    var calc2 = calc1 - vacinas_perdidas 
+    var calc3 = preço * vacinas_perdidas 
+    var calc4 = calc2 * preço 
+    mostrar_valor.innerHTML = `a transportadora entregou ${calc2} de vacinas,perdendo no processo ${vacinas_perdidas} vacinas,com isso
+    houve um ganho de R$${calc4} e uma perda de R$${calc3} `
+    
+    
+    
+}
+
+
+
+</script> 
