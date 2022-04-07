@@ -11,7 +11,7 @@
 <p align="center">Um sistema para gerenciar a temperatura no transporte de vacinas. </p>
 
 
-## Sobre o Projeto
+## Objetivo do Projeto
 Fazer com que a porcentagem de imunizados aumente e que os números de perda de vacinas diminuam consideravelmente. 
  
  
