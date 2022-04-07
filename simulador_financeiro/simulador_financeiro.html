@@ -28,9 +28,16 @@ function calcular(){
     var calc1 = lote * quantidade 
     var calc2 = calc1 - vacinas_perdidas 
     var calc3 = preço * vacinas_perdidas 
-    var calc4 = calc2 * preço 
-    mostrar_valor.innerHTML = `a transportadora entregou ${calc2} de vacinas,perdendo no processo ${vacinas_perdidas} vacinas,com isso
-    houve um ganho de R$${calc4} e uma perda de R$${calc3} `
+    var calc4 = calc2 * preço
+    var porcentagem_perda = (vacinas_perdidas * 100) / calc1
+    var estimativa_redução_vacinas = (vacinas_perdidas * 40) / 100
+    var estimativa_redução_monetaria = (calc3 * 40) / 100
+    
+    mostrar_valor.innerHTML = `<br>A transportadora entregou <b>${calc2}</b> de vacinas, perdendo no processo <b style='color: red'>${vacinas_perdidas}</b> vacinas, com isso
+    houve um prejuízo monetário de <b style='color: red'>R$${calc3}</b> por conta das vacinas perdidas.<br>
+    Essa perda equivale à <b style='color: red'>${porcentagem_perda.toFixed(2)}%</b> das vacinas.<br>
+    Com o nosso serviço estimamos uma redução não só nas perdas das vacinas, mas também uma redução do prejuízo monetário. Essa redução 
+    é de <b style='color: green'>40%</b>, estimando que na próxima entrega haja uma <b><u>perda menor</u></b>, que seria de <b style='color: green'>${estimativa_redução_vacinas}</b> vacinas e um <b><u>prejuízo monetário menor</u></b>, sendo <b style='color: green'>R$${estimativa_redução_monetaria}</b>. `
     
     
     
